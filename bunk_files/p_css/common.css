@@ -4,6 +4,8 @@
 
 /* レイアウト */
 body {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     height: 100lvh;
     font-family: "Noto Sans JP", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ　Ｐゴシック", "HelveticaNeue", "Helvetica", "Arial", Sans-Serif;
@@ -34,6 +36,11 @@ body {
     font-weight: 700;
     line-height: 38px;
     color: #2E2E2E;
+}
+
+/* メイン */
+main {
+    flex-grow: 1;
 }
 
 /* フッター */
